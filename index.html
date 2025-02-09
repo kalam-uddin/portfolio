@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalam</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/profile.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">My Profile</a>
+        <a class="navbar-brand fw-bold" href="../city/cities.html">City</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <img
+        src="./assets/images/profile.png"
+        alt="Profile Picture"
+        class="profile-img"
+      />
+      <h1 class="fw-bold">Kalam Uddin</h1>
+      <p class="lead">Data Engineer | Data Analyst | Data Scientist</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>About Me</h2>
+          <p class="text-justified">
+            I’m a Data Science graduate student with hands-on experience in
+            transforming raw data into actionable insights. My expertise lies in
+            building and optimizing ETL pipelines, managing large datasets, and
+            crafting data-driven solutions, particularly in the US healthcare
+            analytics domain. With a strong foundation in SQL, data modeling,
+            and visualization, I’ve collaborated on projects requiring rigorous
+            analysis and precision, ensuring data quality and impactful
+            outcomes.
+            <br /><br />I thrive on solving complex challenges and delivering
+            results that drive decision-making. Beyond technical proficiency,
+            I’m passionate about learning new technologies, connecting insights
+            to strategy, and working in cross-functional teams. My goal is to
+            leverage my skills to contribute meaningfully to impactful projects
+            and continue growing in the data and analytics field.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <h2>My Interests</h2>
+          <ul class="list-group">
+            <li class="list-group-item">💾 Data Engineering & Warehousing</li>
+            <li class="list-group-item">☁️ Cloud Computing (AWS, Snowflake)</li>
+            <li class="list-group-item">📊 Data Analytics & Visualization</li>
+            <li class="list-group-item">🤖 Machine Learning & AI</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container my-5">
+      <h2 class="text-left">Skills</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>SQL</h5>
+          <div class="progress">
+            <div class="progress-bar bg-primary" style="width: 100%">100%</div>
+          </div>
+          <h5>Python</h5>
+          <div class="progress">
+            <div class="progress-bar bg-success" style="width: 75%">75%</div>
+          </div>
+          <h5>HTML</h5>
+          <div class="progress">
+            <div class="progress-bar bg-primary" style="width: 85%">75%</div>
+          </div>
+          <h5>CSS</h5>
+          <div class="progress">
+            <div class="progress-bar bg-success" style="width: 70%">75%</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h5>Git</h5>
+          <div class="progress">
+            <div class="progress-bar bg-success" style="width: 90%">90%</div>
+          </div>
+          <!--  -->
+          <h5>Oracle Data Integrator (ODI)</h5>
+          <div class="progress">
+            <div class="progress-bar bg-primary" style="width:90%">90%</div>
+          </div><h5>ETL-Tools</h5>
+          <div class="progress">
+            <div class="progress-bar bg-success" style="width:85%">85%</div>
+          </div><h5>Tableau</h5>
+          <div class="progress">
+            <div class="progress-bar bg-primary" style="width:70%">70%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+<section id="education" class="container my-5 text-left">
+  <h2>🎓 Education</h2>
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Master of Science in Data Science</h5>
+      <h6 class="card-subtitle text-muted">
+        <a href="https://www.newhaven.edu/engineering/graduate-programs/data-science/index.php" target="_blank">Tagliatela College of Engineering, University of New Haven</a> | Sep 2024 - Present
+      </h6>
+      <ul class="card-text">
+        <li>Relevant coursework: Machine Learning, Data Engineering, Big Data Analytics, Cloud Computing.</li>
+        <li>Working on a research project focused on optimizing data processing pipelines for healthcare data analytics.</li>
+        <li>Collaborating with faculty on industry-focused AI and data science initiatives.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">Bachelor of Science (Information Technology)</h5>
+      <h6 class="card-subtitle text-muted">
+        <a href="https://iimscollege.edu.np/" target="_blank">IIMS College, Lovely Professional University</a> | Sep 2012 - Mar 2016
+      </h6>
+      <ul class="card-text">
+        <li>Relevant coursework: Database Management Systems, Calculus, Web Development, Software Development Lifecycle.</li>
+        <li>Developed a final-year project on "Design and develop a Library Management System web application using Laravel for efficient book cataloging, user management, and streamlined borrowing processes."</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="container my-5 text-left">
+      <h2>💼 Experience</h2>
+
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Senior Software Engineer</h5>
+          <h6 class="card-subtitle text-muted">
+            <a href="https://www.infinite.com/" target="_blank">Infinite Computer Solutions</a> | Feb 2024 - July 2024
+          </h6>
+          <ul class="card-text">
+            <li>Streamlined ETL operations, executing daily processes to transform raw data into structured formats, ensuring accurate data delivery to the production schema while consistently meeting SLAs.</li>
+            <li>Resolved defects for USI across QA and production phases, tracing issues to their source. Educating the team led to a 30% reduction in similar defects the following quarter, enhancing system reliability.</li>
+            <li>Trained and onboarded new ETL team members, enhancing team efficiency by 20% through focused PL/SQL sessions and comprehensive domain knowledge transfer.</li>
+            <li>Designed and managed data integration workflows using ODI instead of the legacy method, resulting in a 40% reduction in data processing time and improved business intelligence reporting.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Senior Software Engineer</h5>
+          <h6 class="card-subtitle text-muted">
+            <a href="https://www.cotiviti.com.np/" target="_blank">Cotiviti Nepal</a> | Aug 2023 - Feb 2024
+          </h6>
+          <ul class="card-text">
+            <li>Contributed as a senior member of the ETL Defect Team, identifying and resolving defects across QA, pre-production, production, and post-release phases for major clients, including USI, Gallagher, and GBS Analytics.</li>
+            <li>Facilitated training sessions for newly onboarded ETL team members, emphasizing SQL proficiency and US Healthcare data analytics knowledge transfer.</li>
+            <li>Enhanced client scrub scripts, achieving a 20% reduction in processing time.</li>
+            <li>Migrated clients like GBS Analytics from legacy systems to Oracle Data Integrator (ODI), resulting in a 40% decrease in data processing time.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Senior Software Engineer</h5>
+          <h6 class="card-subtitle text-muted">
+            <a href="https://deerhold.com/" target="_blank">Deerhold Ltd.</a> | Oct 2021 - May 2023
+          </h6>
+          <ul class="card-text">
+            <li>Conducted specification reviews and data analyses, developing Snowflake SQL procedures to create optimized tables aligned with project metrics for service clients.</li>
+            <li>Leveraged AWS tools, including S3, QuickSight, and CodeCommit, to enhance cloud infrastructure and support data visualization initiatives.</li>
+            <li>Executed operational ETL tasks, ensuring seamless data integration and maintaining high data quality throughout the ETL process.</li>
+            <li>Collaborated with cross-functional teams to deliver data-driven solutions, significantly improving project efficiency and accuracy.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Software Engineer</h5>
+          <h6 class="card-subtitle text-muted">
+            <a href="https://www.cotiviti.com.np/" target="_blank">Cotiviti Nepal</a> | Aug 2018 - Oct 2021
+          </h6>
+          <ul class="card-text">
+            <li>Executed day-to-day ETL tasks using ODI and legacy scripts, improving data scrubbing efficiency by 25%, which enhanced data quality for multiple clients.</li>
+            <li>Developed and implemented new scripts and mappings in ODI for layout changes, reducing processing time by 20% and meeting client-specific requirements effectively.</li>
+            <li>Utilized regular expressions to optimize file import patterns, resulting in a 30% reduction in data import errors and increasing the accuracy of incoming data sets.</li>
+            <li>Conducted thorough data analyses and collaborated with team members for code reviews, contributing to a 15% decrease in defects in deliverables and ensuring high-quality standards.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Trainee</h5>
+          <h6 class="card-subtitle text-muted">
+            <a href="https://www.cotiviti.com.np/" target="_blank">Cotiviti Nepal</a> | Jul 2018 - Aug 2018
+          </h6>
+          <ul class="card-text">
+            <li>Gained in depth knowledge of US Healthcare Industry.</li>
+            <li>Learned about the software development life cycle at Cotiviti.</li>
+            <li>Did Data Analysis and problem-solving tasks on US Healthcare Data.</li>
+            <li>Learned basics of PL/SQL.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5 text-left">
+      <h2>Connect with me</h2>
+      <div class="social-icons mt-3">
+        <a href="https://github.com/kalam-uddin" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/kalam-uddin/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a> 
+        <a href="https://www.w3schools.com" style="text-decoration: none; target="_blank" >
+          <i class="fas fa-globe"></i>
+        </a>        
+        <a href="mailto:klmkalam06@gmail.com" style="text-decoration: none; target="_blank"
+        ><i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
